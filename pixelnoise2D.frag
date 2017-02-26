@@ -1,12 +1,12 @@
 #version 450 core
 
-in bool state;
+in float state;
 
 out vec4 color;
 
 void main()
 {
-  if (state == true)
+  if (state == 0.0)
   {
     color = vec4(0.05f, 0.05f, 0.05f, 1.0f);
   }
