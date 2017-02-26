@@ -1,6 +1,7 @@
 #version 450 core
 
 in bool state;
+
 out vec4 color;
 
 void main()
