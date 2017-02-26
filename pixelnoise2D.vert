@@ -1,7 +1,7 @@
 #version 450 core
 // requires pre-allocated noise array utilizing external random generators
 layout (location = 0) in bool noise2D;
-
+// specify screen space for which noise array was generated
 uniform int width;
 uniform int height;
 
